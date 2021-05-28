@@ -7,3 +7,6 @@ In this solution we made use of combinations and this way we were able to give t
 We also implemented the capability to read from files and time computation related functions. 
 
 This part is completed by Can Koz and Batuhan Acar.
+
+Greedy Algorithm:
+For this case, the algorithm decides if there should be selected k warehouses, it selects the best one first then select the second one according with the first one until all k warehouses are selected. The time complexity of this algorithm is O((k*n)^2) and the space complexity is O(n). This part is designed and written by Serkan Kutludağ and Yarkın Gazi.
