@@ -5,7 +5,7 @@ non_polynomial.py
 In this solution we made use of combinations and this way we were able to give the correct output regardless of the question lenght and time. The time complexity of this method is O(n*kcomb(n,k)) but it always give the correct resuılt meaning that it brute forces by trying all the combinations. The space complexity is in the order of comb(n,k). We also implemented the capability to read from files and time computation related functions.
 
 How you run this part is by opening shell and execute the following command.
-![How to run](shell_command)
+![How to run](shell_command.png)
 
 This part is completed by Can Koz and Batuhan Acar.
 
