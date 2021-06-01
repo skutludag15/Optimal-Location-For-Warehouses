@@ -2,7 +2,7 @@
 Koç University COMP 305 Algorithms&Complexity Term Project
 
 non_polynomial.py
-In this solution we made use of combinations and this way we were able to give the correct output regardless of the question lenght and time. The time complexity of this method is O(n*kcomb(n,k)) but it always give the correct resuılt meaning that it brute forces by trying all the combinations. The space complexity is in the order of comb(n,k). We also implemented the capability to read from files and time computation related functions.
+In this solution we made use of combinations and this way we were able to give the correct output regardless of the question lenght and time. The time complexity of this method is O(n*kcomb(n,k)) but it always give the correct result meaning that it brute forces all possible warehouse locations by trying all the combinations. The space complexity is in the order of comb(n,k). We also implemented the capability to read from files and time computation related functions.
 
 How you run this part is by opening shell and execute the following command.
 ![How to run](shell_command.png)
@@ -14,7 +14,9 @@ For this case, the algorithm decides if there should be selected k warehouses, i
 
 The algorithm you designed to solve the problem, the choices of the data structures you used and your reasoning:
 
-Your run times for each of the test cases:
+The time complexity of your algorithm (and the space complexity if applicable): This can be found on the paragraphs we wrote above.
+
+Your run times for each of the test cases: This can be found in the Jupyter Notebook with line graph visualizations. 
 
 Further improvements that can be done as future works:
 
