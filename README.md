@@ -20,4 +20,9 @@ The time complexity of your algorithm (and the space complexity if applicable): 
 Your run times for each of the test cases: This can be found in the Jupyter Notebook with line graph visualizations. 
 
 Further improvements that can be done as future works:
-Q-Learning with Neural Networks: Test cases for this problem can be augmented to trillions with the algorithms that we have generated. Number of factories,  number of warehouses, capacities can be generated randomly and an answer for each randomly generated test case can be computed using our algorithm. Once a dataset with considerable amount of test cases are created, one can train a neural network. Once that neural network achieves a considerable accuracy on unseen data which can also be augmented, that neural network can be used to determine the optimal factory or factories to be chosen as a warehouse. 
+1)We thought what would be the proper action if an additional trait(building costs of warehouses) added. In this case we should also minimize the fixed cost associated with building warehouses which affect the numbers of warehouses in the problem. This problem can also implemented with greedy algorithm and inspired us to do so.[1,2]
+2)Q-Learning with Neural Networks: Test cases for this problem can be augmented to trillions with the algorithms that we have generated. Number of factories,  number of warehouses, capacities can be generated randomly and an answer for each randomly generated test case can be computed using our algorithm. Once a dataset with considerable amount of test cases are created, one can train a neural network. Once that neural network achieves a considerable accuracy on unseen data which can also be augmented, that neural network can be used to determine the optimal factory or factories to be chosen as a warehouse. 
+References:
+[1] Laporte, Gilbert, Stefan Nickel, and Saldanha da Gama, Francisco. Location Science. Springer, 2015.
+[2] https://gurobi.github.io/modeling-examples/facility_location/facility_location.html
+
