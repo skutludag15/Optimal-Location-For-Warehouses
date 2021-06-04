@@ -13,6 +13,7 @@ Greedy Algorithm:
 For this case, the algorithm decides if there should be selected k warehouses, it selects the best one first then select the second one according with the first one until all k warehouses are selected. The time complexity of this algorithm is O((k*n)^2) and the space complexity is O(n). This part is designed and written by Serkan Kutludağ and Yarkın Gazi.
 
 The algorithm you designed to solve the problem, the choices of the data structures you used and your reasoning:
+The trivial algorithm is to look all different combinations of the k number of warehouses from n number of factories and choose the best combination according with the cost. There are 2 different array lists for both holding the factories and warehouses with their positions adn weights. There are also another array list for holding different combinations for comb(n,k). The greedy algorithm is to select the best k different warehouses 1 by 1 in orderly according to optimal cost for the system. In this case, 3 different arraylists are used to hold the factories, warehouses and boolean container implying the index of the factory corresponds to warehouse or not. The choosing of this type of datastructure was considered since the calculating of the cost is not a complicated problem and can be directly calculated via position difference and weight. This information can be processed easily within an array list.    
 
 The time complexity of your algorithm (and the space complexity if applicable): This can be found on the paragraphs we wrote above.
 
