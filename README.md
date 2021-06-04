@@ -27,5 +27,6 @@ Further improvements that can be done as future works:
 
 References:
 [1] Laporte, Gilbert, Stefan Nickel, and Saldanha da Gama, Francisco. Location Science. Springer, 2015.
+
 [2] https://gurobi.github.io/modeling-examples/facility_location/facility_location.html
 
