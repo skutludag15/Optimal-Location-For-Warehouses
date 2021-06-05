@@ -1,7 +1,7 @@
 # Optimal-Location-For-Warehouses
 Koç University COMP 305 Algorithms&Complexity Term Project
 
-We have recorder our presentation in case there is an internet connectivity problem during our presentation:
+We have recorded our presentation in case there is an internet connectivity problem during our presentation:
 https://youtu.be/9iMcOL5uZbA
 
 ```non_polynomial.py```
