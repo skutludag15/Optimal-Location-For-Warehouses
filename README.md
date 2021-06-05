@@ -1,6 +1,9 @@
 # Optimal-Location-For-Warehouses
 Koç University COMP 305 Algorithms&Complexity Term Project
 
+We have recorder our presentation in case there is an internet connectivity problem during our presentation:
+https://youtu.be/9iMcOL5uZbA
+
 ```non_polynomial.py```
 In this solution we made use of combinations and this way we were able to give the correct output regardless of the question lenght and time. The time complexity of this method is O(n*kcomb(n,k)) but it always give the correct result meaning that it brute forces all possible warehouse locations by trying all the combinations. The space complexity is in the order of comb(n,k). We also implemented the capability to read from files and time computation related functions.
 
