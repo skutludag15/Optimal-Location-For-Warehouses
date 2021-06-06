@@ -7,4 +7,6 @@ Cost: 1900
 Dynamic
 Time: 0.02405548095703125
 Cost: 2554
-
+Recursive
+Time: 0.0004172325134277344
+Cost: 3664
