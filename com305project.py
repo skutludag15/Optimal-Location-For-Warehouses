@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jun  6 12:40:31 2021
 
-@author: Acar
-"""
 import time
 
 
